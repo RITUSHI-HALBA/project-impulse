@@ -1,0 +1,50 @@
+.section-7 {
+    background-image: url(../img/contact-bg.jpg);
+    @include background;
+    padding: 6rem 0 6rem 0;
+    color: $secondary-color;
+
+    .section-7-text {
+        padding-bottom: 4rem;
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    form {
+        width: 50%;
+        margin: 0 auto;
+
+        input {
+            padding: 0.7rem;
+        }
+
+        span{
+            display: block;
+            color: red;
+            margin-bottom: 1rem;
+        }
+
+        .send-mail {
+            background-color: $primary-color;
+            color: $secondary-color;
+            border: 0;
+            @include transition;
+
+
+            &:hover {
+                background-color: $secondary-color;
+                color: $primary-color;
+            }
+        }
+    }
+}
+

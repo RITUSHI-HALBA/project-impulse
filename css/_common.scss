@@ -1,0 +1,32 @@
+* {
+    font-family: 'Acme', sans-serif;
+    box-sizing: border-box;
+}
+
+.inner {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+html{
+    font-size: 14px;
+}
+
+.button {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+
+
+

@@ -1,0 +1,42 @@
+.section-4 {
+    background-image: url(../img/team-bg.jpg);
+    @include background;
+    padding: 6rem 0 6rem 0;
+
+    .section-4-text {
+        padding-bottom: 7rem;
+        color: $secondary-color;
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .section-4-image {
+        .girl-img {
+            position: relative;
+            margin-bottom: 2rem;
+
+            &:hover .slide-up {
+                transform: translateY(-30px);
+            }
+
+            .slide-up {
+                text-align: center;
+                background-color: $primary-color;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                color: $secondary-color;
+                @include transition;
+            }
+        }
+    }
+}

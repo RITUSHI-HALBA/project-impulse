@@ -1,0 +1,33 @@
+.section-5 {
+    padding: 6rem 0 6rem 0;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 16px;
+
+    .section-5-text {
+        padding-bottom: 7rem;
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: $text-color;
+        }
+    }
+
+    .section-5-image {
+        .work-place-img {
+
+            margin-bottom: 2rem;
+            @include transition;
+
+            &:hover {
+                @include shadow;
+            }
+        }
+    }
+}

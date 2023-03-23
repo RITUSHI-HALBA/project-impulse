@@ -1,0 +1,30 @@
+ $primary-color: #eb5424;
+ $secondary-color: white;
+ $text-color: gray;
+
+ @mixin transition {
+    transition: 0.8s ease-in-out;
+ }
+
+ @mixin flex-center {
+    display: flex;
+    align-items: center;
+ }
+
+ @mixin background {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ @mixin shadow {
+    box-shadow: 0 0 20px;
+ }
+
+
+
+ @mixin responsive800 {
+    @media only screen and (max-width:800px) {
+       @content;
+    }
+ }

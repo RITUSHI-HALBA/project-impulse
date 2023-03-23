@@ -1,0 +1,43 @@
+.section-9 {
+    background-color: #202020;
+    text-align: center;
+    padding: 6rem 0 6rem 0;
+    color: $secondary-color;
+
+    a {
+        text-decoration: none;
+        margin: 0 0 1rem 1.5rem;
+        color: $primary-color;
+
+        i {
+            height: 3.3rem;
+            width: 3.3rem;
+            @include flex-center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-bottom: 0.6rem;
+            border-radius: 50%;
+            background-color: $secondary-color;
+            @include transition;
+
+
+            &:hover {
+                color: black;
+                border-radius: 10%;
+                transform: translateY(-20px);
+            }
+        }
+    }
+
+    .copyright {
+        margin: 0;
+    }
+}
+
+p {
+    margin: 2rem 0 2rem 0;
+
+    a {
+        color: $primary-color;
+    }
+}

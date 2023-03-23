@@ -1,0 +1,81 @@
+.section-6 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    .section-6-text {
+        padding-bottom: 4rem;
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: $text-color;
+        }
+    }
+
+    .section-6-box {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: center;
+
+        .white-orange-box {
+            @include transition;
+
+            &:hover {
+                @include shadow;
+                transform: translateY(-20px);
+            }
+
+
+            .white {
+                background-color: #f8f8f8;
+                padding: 2rem 0;
+            }
+        }
+    }
+}
+
+.white-orange-box {
+    margin-bottom: 2rem;
+
+    .orange {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        color: $secondary-color;
+        background-color: $primary-color;
+        @include flex-center;
+        flex-direction: column;
+        justify-content: space-between;
+        text-transform: uppercase;
+
+        p {
+            padding-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-size: 2.4rem;
+        }
+
+        h6 {
+            font-size: 1.5rem;
+            padding-bottom: 1.8rem;
+        }
+
+        a {
+            background-color: $secondary-color;
+            color: black;
+            @include transition;
+
+
+            &:hover {
+                background-color: $primary-color;
+                color: $secondary-color;
+            }
+        }
+    }
+}
